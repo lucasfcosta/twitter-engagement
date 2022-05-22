@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/lucasfcosta/twitter-engagement/issues"
   },
-  "homepage": "https://github.com/lucasfcosta/twitter-engagement#readme"
+  "homepage": "https://github.com/lucasfcosta/twitter-engagement#readme",
+  "dependencies": {
+    "twitter-api-sdk": "^1.0.6"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
 }
