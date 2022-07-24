@@ -1,26 +1,31 @@
 {
-  "name": "twitter-engagement",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lucasfcosta/twitter-engagement.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lucasfcosta/twitter-engagement/issues"
-  },
-  "homepage": "https://github.com/lucasfcosta/twitter-engagement#readme",
-  "dependencies": {
-    "twitter-api-sdk": "^1.0.6"
-  },
-  "devDependencies": {
-    "typescript": "^4.6.4"
-  }
+    "name": "twitter-engagement",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lucasfcosta/twitter-engagement.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lucasfcosta/twitter-engagement/issues"
+    },
+    "homepage": "https://github.com/lucasfcosta/twitter-engagement#readme",
+    "dependencies": {
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "twitter-api-sdk": "^1.1.0"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.13",
+        "@types/node": "^17.0.35",
+        "prettier": "^2.7.1",
+        "typescript": "^4.6.4"
+    }
 }
